@@ -9,7 +9,6 @@ v1.Name = "mending";
 v1.Health = 1000;
 
 
-
 while(v1.Health <= 0){
     string input = Console.ReadLine();
 
@@ -20,7 +19,7 @@ while(v1.Health <= 0){
     {
     v1.Health -= dmg;
     Console.WriteLine(v1.Health);
-    
+
     }
 
 
